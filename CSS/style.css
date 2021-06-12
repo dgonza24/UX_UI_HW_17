@@ -1,0 +1,110 @@
+
+body {
+    font-family: 'Josefin', sans-serif;
+    background-color: rgba(33, 17, 97);
+}
+#logo {
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    width: 164.53px;
+    height: 50px;
+    left: 438px;
+    top: 30px;
+    z-index: 5;
+}
+.topNav {
+    border: 1px;
+    border-color: rgba(243, 225, 64, 1);
+    position: relative;
+    width: 250px;
+    height: 3px;
+    left: 1050px;
+    top: 0px;  
+    z-index: 5;;
+
+}
+#navigation {
+    color: white;
+    display: flex;
+    position: relative;
+    width: 912px;
+    height: 22px;
+    left: 270px;
+    top: 115px;
+    z-index: 6;
+}
+nav p {
+    display: inline-block;
+    padding: 30px 30px;
+}
+#heroImage{
+    background: linear-gradient(180deg, rgba(33, 17, 97, 0.4) 59.9%, rgba(204, 3, 172, 0.4) 100%); 
+    background-size: cover;
+    position: absolute;
+    width: 1014px;
+    height: 675px;
+    left: 180px;
+    top: 337px;
+    z-index: 3;
+    padding: 25px;
+    
+}
+#statement {
+    color: #eef4fb;
+    font-size: x-large;
+    position: relative;
+    z-index: 5;
+
+}
+.footer {
+    background-color:#eef4fb ;
+    position: absolute;
+    width: 2500px;
+    height: 470px;
+    left: 0px;
+    top: 2700px;
+}
+
+footer a {
+    display: inline-block;
+    vertical-align: bottom;
+    position: absolute;
+    width: 52px;
+    height: 53px;
+    left: 52px;
+    top: 3073px;
+}
+#logoFooter {
+    position: relative;
+    display: flex;
+    margin: auto;
+    padding: 25px;
+}
+.mailingBox{
+    display: inline-flexbox;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    width: 300px;
+    border: 15px;
+    padding: 50px;
+    margin: 20px;
+    background-color: rgba(33, 17, 97);
+}
+.mailingText{
+    color: white;
+    font-size: normal;
+}
+#contactUs {
+    justify-content: left;
+    text-decoration-line: underline;
+    color: #000;
+    font-weight: bold;
+}
+#contactUs h8 {
+    text-align: center;
+    text-decoration: underline;
+    color: #000;
+}
+
